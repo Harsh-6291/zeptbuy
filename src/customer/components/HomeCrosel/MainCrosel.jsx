@@ -7,7 +7,7 @@ import  { MainCroselData } from './MainCroselData';
 
 const MainCrosel = () => {
    
-    const items = MainCroselData.map((item) => <img className='curser-pointer h-96 w-full'
+    const items = MainCroselData.map((item) => <img className='curser-pointer h-96.5 w-full'
      role='presentation' src={item.image} alt="carousel-item" />)
 
    return (
@@ -16,7 +16,7 @@ const MainCrosel = () => {
         disableButtonsControls
         autoPlay
         infinite
-        autoPlayInterval={1000} 
+        autoPlayInterval={1100} 
     
 />)
 };

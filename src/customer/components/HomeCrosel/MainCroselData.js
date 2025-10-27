@@ -1,14 +1,14 @@
 export const MainCroselData = [
-    {  
-        image:"https://www.freepik.com/free-vector/fashion-sale-landing-page_8724336.htm#fromView=image_search_similar&page=1&position=0&uuid=5618b193-a832-4055-85dd-cf1c9e8b48ee" ,
-        path:"",
-    },
-    {
-        image:"https://www.freepik.com/free-vector/fashion-sale-landing-page_9010168.htm#fromView=image_search_similar&page=1&position=6&uuid=5618b193-a832-4055-85dd-cf1c9e8b48ee",
-        path:"/",
-    },
-    {
-        image:"https://www.freepik.com/free-vector/fashion-sale-landing-page-template_8992744.htm#fromView=image_search_similar&page=1&position=14&uuid=5618b193-a832-4055-85dd-cf1c9e8b48ee",        
-        path:"/",
-    },
+  {
+    image: "/images/banner1.png",  // resolves to public/images/banner1.jpg
+    path: "/images"
+  },
+  {
+    image: "/images/banner2.png",
+    path: "/images"
+  },
+  {
+    image: "/images/banner3.png",
+    path: "/images"
+  }
 ];
